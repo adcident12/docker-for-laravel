@@ -19,6 +19,6 @@
     <li>หลังจากนั้นก็ ลบ Folder app ออก แล้วทำการติดตั้งตัว laravel <code>composer create-project laravel/laravel app</code></li>
     <li>แก้ไขส่วนของ Connect database ตาม flie <code>docker-compose.yml</code> ตรง  mysql8-service ให้เรียบร้อย ใน file <code>.env</code></li>
     <li>เปิด Browser ใส่ url <code>http://localhost:8020</code> อีกครั้ง</li>
-    <li>ส่วน phpmyadmin จะอยู่ที่ <div><code>url: http://localhost:8021</code></div><div><code>server: mysql8-service</code></div><div><code>username: root</code></div><div><code>password: secret</code></div></li>
+    <li>ส่วน phpmyadmin จะอยู่ที่ <code>url: http://localhost:8021</code><div><code>server: mysql8-service</code></div><div><code>username: root</code></div><div><code>password: secret</code></div></li>
 </ol>
 <span>enjoy!! &#128008;</span>
