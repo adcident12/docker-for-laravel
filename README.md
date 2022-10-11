@@ -1,4 +1,4 @@
-<h1>docker-for-laravel</h2>
+<h1>docker-for-laravel Support 6, 7, 8, 9</h2>
 <h2>วิธีใช้งาน</h2>
 <ol>
     <li>เปิด vscode และ ทำการสร้าง folder ของ project</li>
