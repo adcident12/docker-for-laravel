@@ -23,7 +23,7 @@
 </ol>
 <h3>How to change the maximum file size</h3>
 <ol>
-    <li><code>docker ps และ copy ในส่วนของ NAMES ของ IMAGE ที่เป็น php</code> ตามเอกสาร NAMES คือ(php80-container)</li>
+    <li><code>docker ps</code> และ copy ในส่วนของ NAMES ของ IMAGE ที่เป็น php ตามเอกสาร NAMES คือ(php80-container)</li>
     <li><code>docker exec -it {NAMES} bash</code> ตามเอกสาร NAMES คือ(php80-container)</li>
     <li><code>cd /usr/local/etc/php/conf.d</code></li>
     <li><code>nano uploads.ini</code>
