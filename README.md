@@ -6,7 +6,7 @@
     <li>mysql</li>
     <li>phpmyadmin</li>
 </ul>
-<h3>วิธีใช้งาน</h3>
+<h3>How to use</h3>
 <ol>
     <li>เปิด Vscode และ ทำการสร้าง folder ของ project</li>
     <li>เปิด Terminal ใน vscode</li>
@@ -42,3 +42,4 @@
 </ol>
 <span>enjoy!! &#128008;</span>
 <div>Ref. https://github.com/GaryClarke/nginx-php7.4-mysql8-node-docker-network</div>
+<div>Ref. https://sidshome.wordpress.com/2020/06/05/how-to-change-the-maximum-file-size-you-can-upload-to-wordpress-on-nginx-w-php-fpm/</div>
