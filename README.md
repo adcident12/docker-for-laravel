@@ -1,5 +1,5 @@
 <h1>docker-for-laravel Support 6, 7, 8, 9</h2>
-<h3>stack</h3>
+<h3>Stack</h3>
 <ul>
     <li>nginx</li>
     <li>php8.0-fpm</li>
