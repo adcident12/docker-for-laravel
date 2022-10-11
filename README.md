@@ -1,4 +1,12 @@
 <h1>docker-for-laravel</h2>
-<code>git clone https://github.com/adcident12/docker-for-laravel.git</code>
-#### หลังจาก ใช้คำสั้ง docker-compose up -d --build สำเร็จ
-#### ให้ทำการ ลงตัว laravel โดยกำหนด ชื่อว่า app และแก้ไข .env ตาม docker-compose file ใส่ส่วนของ connect database (อย่าลืมลบ folder app ที่ถูกสร้างขึ้นหลังจาก build เสร็จ เพราะจะ ติดตั้งไม่ได้ ต้องลบออกก่อน)
+<h2>วิธีใช้งาน</h2>
+<ol>
+    <li>1. เปิด vscode และ ทำการสร้าง folder ของ project</li>
+    <li>2. เปิด Terminal ใน vscode</li>
+    <li>3. <code>git clone https://github.com/adcident12/docker-for-laravel.git<code></li>
+    <li>4. <code>cd docker-for-laravel<code></li>
+    <li>5. <code>docker-compose up -d --build<code></li>
+    <li>6. รอจนเสร็จ</li>
+    <li>7. ลองสร้าง folder ใน app ชื่อ public และ เพิ่ม file index.php ภายในให้แสดง<code><?php echo phpinfo(); ?></code></li>
+    <li>8. เปิด Browser ใส่ url <code>http://localhost:8020</code></li>
+</ol>
