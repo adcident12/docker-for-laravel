@@ -21,5 +21,24 @@
     <li>เปิด Browser ใส่ url <code>http://localhost:8020</code> อีกครั้ง</li>
     <li>ส่วน phpmyadmin จะอยู่ที่ <code>url: http://localhost:8021</code><div><code>server: mysql8-service</code></div><div><code>username: root</code></div><div><code>password: secret</code></div></li>
 </ol>
+<h3>How to change the maximum file size</h3>
+<ol>
+    <li><code>docker ps และ copy ในส่วนของ NAMES ของ IMAGE ที่เป็น php</code> ตามเอกสาร NAMES คือ(php80-container)</li>
+    <li><code>docker exec -it {NAMES} bash</code> ตามเอกสาร NAMES คือ(php80-container)</li>
+    <li><code>cd /usr/local/etc/php/conf.d</code></li>
+    <li><code>nano uploads.ini</code>
+    <div><code>file_uploads = On</code></div>
+    <div><code>memory_limit = 500M</code></div>
+    <div><code>upload_max_filesize = 100M</code></div>
+    <div><code>post_max_size = 100M</code></div>
+    <div><code>max_execution_time = 600</code></div>
+    <div><code>max_file_uploads = 50000</code></div>
+    <div><code>max_execution_time = 5000</code></div>
+    <div><code>max_input_time = 5000</code></div>
+    </li>
+    <li>ใส่ ตัวเลขตามต้องการ และ save (ctrl x y enter)</li>
+    <li><code>exit</code></li>
+    <li><code>docker-compose restart</code></li>
+</ol>
 <span>enjoy!! &#128008;</span>
 <div>Ref. https://github.com/GaryClarke/nginx-php7.4-mysql8-node-docker-network</div>
