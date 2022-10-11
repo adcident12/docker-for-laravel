@@ -22,3 +22,4 @@
     <li>ส่วน phpmyadmin จะอยู่ที่ <code>url: http://localhost:8021</code><div><code>server: mysql8-service</code></div><div><code>username: root</code></div><div><code>password: secret</code></div></li>
 </ol>
 <span>enjoy!! &#128008;</span>
+<div>Ref. https://github.com/GaryClarke/nginx-php7.4-mysql8-node-docker-network</div>
