@@ -26,7 +26,7 @@
     <li><code>docker ps</code> และ copy ในส่วนของ NAMES ของ IMAGE ที่เป็น php service ตามเอกสาร NAMES คือ (php80-container)</li>
     <li><code>docker exec -it {NAMES} bash</code> ตามเอกสาร NAMES คือ (php80-container)</li>
     <li><code>cd /usr/local/etc/php/conf.d</code></li>
-    <li><code>nano uploads.ini</code>
+    <li><code>nano uploads.ini</code> copy ด้านล่างวาง
     <div><code>file_uploads = On</code></div>
     <div><code>memory_limit = 500M</code></div>
     <div><code>upload_max_filesize = 100M</code></div>
