@@ -10,4 +10,3 @@ RUN apt-get update && apt-get install -y nodejs npm zlib1g-dev g++ git curl libp
 WORKDIR /var/www/project
 
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-RUN composer create-project laravel/laravel app
