@@ -1,4 +1,4 @@
-<h1>docker-for-laravel Support 6, 7, 8, 9</h2>
+<h1>docker-for-laravel Recommend 8, 9</h2>
 <h3>Stack</h3>
 <ul>
     <li>nginx</li>
