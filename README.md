@@ -1,5 +1,12 @@
 <h1>docker-for-laravel Support 6, 7, 8, 9</h2>
-<h2>วิธีใช้งาน</h2>
+<h3>stack</h3>
+<ul>
+    <li>nginx</li>
+    <li>php8.0-fpm</li>
+    <li>mysql</li>
+    <li>phpmyadmin</li>
+</ul>
+<h3>วิธีใช้งาน</h3>
 <ol>
     <li>เปิด Vscode และ ทำการสร้าง folder ของ project</li>
     <li>เปิด Terminal ใน vscode</li>
