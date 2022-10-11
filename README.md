@@ -9,4 +9,5 @@
     <li>รอจนเสร็จ</li>
     <li>ลองสร้าง folder ใน app ชื่อ public และ เพิ่ม file index.php ภายในให้แสดง <code>phpinfo();</code></li>
     <li>เปิด Browser ใส่ url <code>http://localhost:8020</code></li>
+    <li>หลังจากนั้นก็ ลบ folder app ออก แล้วทำการติดตั้งตัว laravel <code>composer create-project laravel/laravel app</code></li>
 </ol>
