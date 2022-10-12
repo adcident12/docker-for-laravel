@@ -25,6 +25,7 @@
 <ol>
     <li><code>docker ps</code> และ copy ในส่วนของ NAMES ที่เป็น php service ตามตัวอย่าง NAMES คือ (php80-container)</li>
     <li><code>docker exec -it {NAMES} bash</code> ตามตัวอย่าง NAMES คือ (php80-container)</li>
+    <li>ลุย!!</li>
 </ol>
 <h3>How to change the maximum file size</h3>
 <ol>
