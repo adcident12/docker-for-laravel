@@ -17,9 +17,14 @@
     <li>ลองสร้าง Folder ใน app ชื่อ public และ เพิ่ม file index.php ภายในให้แสดง <code>phpinfo();</code></li>
     <li>เปิด Browser ใส่ url <code>http://localhost:8020</code></li>
     <li>หลังจากนั้นก็ ลบ Folder app ออก แล้วทำการติดตั้งตัว laravel <code>composer create-project laravel/laravel app</code></li>
-    <li>แก้ไขส่วนของ Connect database ตาม flie <code>docker-compose.yml</code> ตรง  mysql8-service ให้เรียบร้อย ใน file <code>.env</code><div><code>DB_HOST=mysql8-container</code> (กรณีใช้งาน php artisan นอก container)</div><div><code>DB_PORT=3306</code></div><div><code>DB_DATABASE=laravel</code></div><div><code>DB_USERNAME=root</code></div><div><code>DB_PASSWORD=secret</code></div></li>
+    <li>แก้ไขส่วนของ Connect database ตาม flie <code>docker-compose.yml</code> ตรง  mysql8-service ให้เรียบร้อย ใน file <code>.env</code><div><code>DB_HOST=mysql8-container</code></div><div><code>DB_PORT=3306</code></div><div><code>DB_DATABASE=laravel</code></div><div><code>DB_USERNAME=root</code></div><div><code>DB_PASSWORD=secret</code></div></li>
     <li>เปิด Browser ใส่ url <code>http://localhost:8020</code> อีกครั้ง</li>
     <li>ส่วน phpmyadmin จะอยู่ที่ <code>url: http://localhost:8021</code><div><code>server: mysql8-service</code></div><div><code>username: root</code></div><div><code>password: secret</code></div></li>
+</ol>
+<h3>How to use php artisan command</h3>
+<ol>
+    <li><code>docker ps</code> และ copy ในส่วนของ NAMES ของ IMAGE ที่เป็น php service ตามตัวอย่าง NAMES คือ (php80-container)</li>
+    <li><code>docker exec -it {NAMES} bash</code> ตามตัวอย่าง NAMES คือ (php80-container)</li>
 </ol>
 <h3>How to change the maximum file size</h3>
 <ol>
