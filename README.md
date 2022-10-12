@@ -23,12 +23,12 @@
 </ol>
 <h3>How to use php artisan command</h3>
 <ol>
-    <li><code>docker ps</code> และ copy ในส่วนของ NAMES ของ IMAGE ที่เป็น php service ตามตัวอย่าง NAMES คือ (php80-container)</li>
+    <li><code>docker ps</code> และ copy ในส่วนของ NAMES ที่เป็น php service ตามตัวอย่าง NAMES คือ (php80-container)</li>
     <li><code>docker exec -it {NAMES} bash</code> ตามตัวอย่าง NAMES คือ (php80-container)</li>
 </ol>
 <h3>How to change the maximum file size</h3>
 <ol>
-    <li><code>docker ps</code> และ copy ในส่วนของ NAMES ของ IMAGE ที่เป็น php service ตามตัวอย่าง NAMES คือ (php80-container)</li>
+    <li><code>docker ps</code> และ copy ในส่วนของ NAMES ที่เป็น php service ตามตัวอย่าง NAMES คือ (php80-container)</li>
     <li><code>docker exec -it {NAMES} bash</code> ตามตัวอย่าง NAMES คือ (php80-container)</li>
     <li><code>cd /usr/local/etc/php/conf.d</code></li>
     <li><code>nano uploads.ini</code> copy ด้านล่างวาง
