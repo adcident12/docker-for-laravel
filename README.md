@@ -40,7 +40,7 @@
     <li><code>exit</code></li>
     <li><code>docker-compose restart</code></li>
 </ol>
-<h3>Fix Error Connection refused</h3>
+<h3>How to fix Error Connection refused</h3>
 <ol>
     <li>ดู ip ของ container ต่างๆ <code>docker inspect -f '{{.Name}} - {{range .NetworkSettings.Networks}}{{.IPAddress}}{{end}}' $(docker ps -aq)
 </code></li>
