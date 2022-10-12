@@ -49,5 +49,5 @@
 <span>enjoy!! &#128008;</span>
 <div>Ref. https://github.com/GaryClarke/nginx-php7.4-mysql8-node-docker-network</div>
 <div>Ref. https://sidshome.wordpress.com/2020/06/05/how-to-change-the-maximum-file-size-you-can-upload-to-wordpress-on-nginx-w-php-fpm/</div>
-<div>https://laracasts.com/discuss/channels/laravel/dock-laravel-sqlstatehy000-2002-connection-refused</div>
+<div>Ref. https://laracasts.com/discuss/channels/laravel/dock-laravel-sqlstatehy000-2002-connection-refused</div>
 
